@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: grid;
+    grid-template-areas: "header header header header header header""aside main main main main main";
+}
+
+header{
+    grid-area: header;
+    text-align: center;
+    background-color: rgba(35,47,62,255);
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+aside{
+    grid-area: aside;
+}
+main{
+    grid-area: main;
+}
+nav{
+    background-color: rgba(55,71,90,255);
+    padding: 0.65rem;
+}
+a{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    margin: 5rem;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+}
+section{
+    margin-left: 0.60rem;
+    padding-right: 0.60rem;
+}
+article{
+    background-color: lightgrey;
+    border: 1px solid black;
+    padding: 0.40rem 0.40rem 0.40rem 0.40rem;
+    margin-top: 0.65rem;
+    box-shadow: 1px 5px 5px rgb(212, 114, 114);
+}
+.span{
+    font-weight: bold;
+}
+.negrita{
+    font-weight: bold;
+}
+.fondotag{
+    background-color: rgb(221, 76, 76);
+    margin-left: 0.20rem;
+}
